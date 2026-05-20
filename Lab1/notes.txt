@@ -1,0 +1,32 @@
+What is MPI?
+Why MPI is used?
+Difference between sequential and parallel computing?
+What is rank?
+What is size?
+What is process?
+What is MPI_COMM_WORLD?
+What does MPI_Init() do?
+Why MPI_Finalize() is needed?
+What is mpicc?
+What is mpirun?
+Meaning of -np?
+Difference between shared memory and message passing?
+Why outputs appear unordered?
+What are communicators?
+
+
+Concept	One-Line Revision
+MPI	Message Passing Interface
+Rank	Process ID
+Size	Total processes
+MPI_Init	Starts MPI
+MPI_Finalize	Ends MPI
+MPI_COMM_WORLD	Default communicator
+mpicc	MPI compiler
+mpirun	Executes MPI
+-np	Number of processes
+
+
+Install MPI: sudo apt-get install mpich 
+Compile: mpicc file.c -o output
+Run: mpirun -np 4 ./output
