@@ -3,7 +3,8 @@
 Program Name :
 7_even_hello_odd_world_mpi.c
 
-Write a simple MPI program to find out pow (x, rank) for all the processes where 'x' is the integer constant and 'rank' is the rank of the process. Write a program in MPI where even ranked process prints "Hello" and odd ranked process prints "World".
+Write a simple MPI program to find out pow (x, rank) for all the processes where 'x' is the integer constant and 'rank' is the rank of the process. 
+Write a program in MPI where even ranked process prints "Hello" and odd ranked process prints "World".
 
 Objective:
 -----------
