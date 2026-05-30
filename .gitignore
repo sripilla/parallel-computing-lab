@@ -63,3 +63,8 @@ dkms.conf
 *_mpi
 
 !Lab5/*.cu
+!Lab6/*.cu
+!Lab7/*.cu
+!Lab8/*.cu
+!Lab9/*.cu
+!Lab10/*.cu
